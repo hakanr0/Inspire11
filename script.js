@@ -53,7 +53,7 @@ For example: account = {
     username: "usernameChanged",
     password: "passwordChanged"
 } is not possible.
-However, we can change the properties since the account is const and not the properties within account variable.
+However, we can change the properties since the account is const and not the properties within account.
 So account.password = "passwordChanged" is possible.
 In order to make an object truly immutable, we use a function called freeze to prevent any changes to its properties.
 */
